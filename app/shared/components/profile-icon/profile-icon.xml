@@ -1,0 +1,14 @@
+<ActionItem
+    tap="onProfilePicTap"
+    ios.position="right">
+    <StackLayout orientation="horizontal">
+        <Image
+            loaded="onProfilePicLoaded"
+            width="32"
+            height="32"
+            stretch="aspectFill"
+            borderRadius="50"
+            borderWidth="1"
+            borderColor="#2B0B30"/>
+    </StackLayout>
+</ActionItem>
